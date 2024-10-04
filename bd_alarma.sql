@@ -1,0 +1,9 @@
+CREATE DATABASE alarma_db;
+
+USE alarma_db;
+
+CREATE TABLE alarmas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    estado VARCHAR(10),
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
